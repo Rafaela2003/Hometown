@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+  
+<head>
+  <meta charset = "UTF-8">
+  <title>Hometown</title>
+  <link rel = "icon" type = "image/x-icon" href = "https://gisgeography.com/wp-content/uploads/2017/09/Portugal-World-Map.png">
+  <body style = "background-color:#ebf1fa;"></body>
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+  <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<div  class = "container-fluid p-5 bg-primary text-black text-center"
+  style = "background-image: url('https://www.movingtoportugal.pt/wp-content/uploads/2021/06/Faro-4.png'); 
+  height: 90vh;">
+  <h1 class = "text-black"> Faro </h1>
+  <h6> Portugal · 1249 · "Esta é a ditosa Pátria minha amada" · "This is my blissful beloved homeland"</h6>
+</div>
+
+<nav class = "navbar navbar-expand-sm bg-light">
+
+  <div class = "container-fluid">
+    <ul class = "navbar-nav">
+      <li class = "nav-item">
+        <a class = "nav-link" href = "https://jacksongemini-picassosunday.codio-box.uk/homepage.html"> Home Page </a>
+      </li>
+      <li class = "nav-item">
+        <a class = "nav-link" href = "https://jacksongemini-picassosunday.codio-box.uk/history.html"> History Page </a>
+      </li>
+      <li class = "nav-item">
+        <a class = "nav-link" href="https://jacksongemini-picassosunday.codio-box.uk/visit.html"> Visit Page </a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+  
+<div class = "container mt-5">
+  <div class = "row">
+    <div class = "col-sm-12">
+      <h3> Visit Page </h3>
+      <p> Faro is a famous tourist destination therefore, this page provides information concerning essential visiting areas. The right of the screen displays essential visiting areas in Faro, Portugal. </p>
+      <p> For more information on other tourist attractions in the city of Faro please click the button below: </p>
+      <button onclick = "document.location='https://www.tripadvisor.co.uk/Attractions-g189116-Activities-Faro_Faro_District_Algarve.html'"> TripAdvisor </button>
+      <br>
+    </div>
+    <div class = "col-sm-7">
+    <br>
+    <h6> Culture and Entertainment </h6>
+    <p> Faro has an official holiday on 7th September due to a festival hosted by students from the University of Algarve. Additionally Faro's motorcycle club is responsible for the largest motorcycle events in Portugal and Europe. Estadio Algarve is the football stadium shared by Faro and Loule and it was the venue for the 2004 Euro's. </p>
+    <br>
+    </div>
+    <div class = "col-sm-5">
+      <div id = "accordion">
+    <div class = "card">
+      <div class = "card-header">
+        <a class= "btn" data-bs-toggle = "collapse" href = "#collapseOne">
+          Ria Formosa
+        </a>
+      </div>
+      <div id = "collapseOne" class = "collapse show" data-bs-parent = "#accordion">
+        <div class = "card-body">
+          <div class = "col-sm-12">
+            <p> The Ria Formosa is a lagoon that acts as a system of barrier islands that connects to the sea through six inlets. </p>
+          </div>
+          <div>
+            <img src = "https://www.portugalresident.com/wp-content/uploads/2016/02/parque-natural-ria-formosa.jpg" alt = "Ria Formosa" style = "width:100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "card">
+      <div class = "card-header">
+        <a class = "collapsed btn" data-bs-toggle = "collapse" href = "#collapseTwo">
+          Igreja de Santa Maria 
+        </a>
+      </div>
+      <div id = "collapseTwo" class = "collapse" data-bs-parent = "#accordion">
+        <div class = "card-body">
+          <p> A Roman Catholic cathedral that has been the seat of the Diocese of Faro since 1540. </p>
+        </div>
+        <div>
+          <img src = "https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/Faro-SeCatedral-RuiMoraisdeSousa-Visit1.jpg?itok=jl72Nc-9" alt = "St Mary's Cathedral" style = "width:100%;">
+        </div>
+      </div>
+    </div>
+    <div class = "card">
+      <div class = "card-header">
+        <a class = "collapsed btn" data-bs-toggle = "collapse" href = "#collapseThree">
+          Muncipial Museum 
+        </a>
+      </div>
+      <div id = "collapseThree" class = "collapse" data-bs-parent = "#accordion">
+        <div class = "card-body">
+          <p> A historical convent that has been turned into a museum and features permanent and temporary archeological exhibitions. </p>
+        </div>
+        <div>
+          <img src = "https://cdn.travel-in-portugal.com/sites/default/files/attractions/faro-convent-museum.jpg" alt = "Municipal Museum" style = "width:100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
